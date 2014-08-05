@@ -1,0 +1,25 @@
+
+Git Help Page:
+1.The VERY FIRST thing you need to do every single time when you want 
+to look/check out/edit the folder:  
+	git pull
+
+    if the return value is Already up to date. You are ready to go.
+
+    else, you need to do:
+	git stash
+    WARNING: git stash will erase any unsave changes that you haven't 
+push.
+
+
+2. How to edit file:
+	git pull
+   	touch [some existing file]
+        do your editing...
+        git add [file you want to add]
+        git commit -m"some message, descripting what you did"
+        git push origin master
+        [input your username and password as prompted]
+ 
+
+
